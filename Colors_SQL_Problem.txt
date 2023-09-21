@@ -1,0 +1,25 @@
+Problem Description : We need to write a query to get the Green-Orange if the Green exists for the same IDS & if not then display the respective color if its only green
+
+
+Create Statement : 
+
+CREATE TABLE colors (
+  id INT,
+  color VARCHAR(255)
+);
+
+INSERT INTO colors (id, color)
+VALUES
+  (1, 'green'),
+  (1, 'Green-orange'),
+  (2, 'Black'),
+  (3, 'Blue'),
+  (4, 'Red'),
+  (5, 'Green'),
+  (5, 'Green-Orange'),
+  (6, 'Green'),
+  (7, 'Green'),
+  (8, 'Green'),
+  (8, 'Green-Orange'),
+  (9, 'Green'),
+  (10, 'Green');
